@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html, body { height: 100%; }
+    body { background: transparent; }
+  </style>
+</head>
+<body>
+<!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container" style="height:100%;width:100%">
+  <div class="tradingview-widget-container__widget" style="height:calc(100% - 32px);width:100%"></div>
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-advanced-chart.js" async>
+  {
+    "allow_symbol_change": false,
+    "calendar": false,
+    "details": false,
+    "hide_side_toolbar": true,
+    "hide_top_toolbar": false,
+    "hide_legend": false,
+    "hide_volume": false,
+    "hotlist": false,
+    "interval": "D",
+    "locale": "fr",
+    "save_image": false,
+    "style": "2",
+    "symbol": "NASDAQ:NBTX",
+    "theme": "light",
+    "timezone": "Europe/Paris",
+    "backgroundColor": "#ffffff",
+    "withdateranges": false,
+    "compareSymbols": [],
+    "studies": [],
+    "autosize": true
+  }
+  </script>
+</div>
+<!-- TradingView Widget END -->
+</body>
+</html>
